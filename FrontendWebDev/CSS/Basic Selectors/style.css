@@ -1,0 +1,28 @@
+/*Element selector*/
+h1{
+    color: green;
+}
+strong{
+    color: red;
+}
+
+/*ID SELECTOR -> each element should have unique id*/
+#special{
+    text-transform: uppercase;
+}
+
+/*CLASS SELECTOR*/
+.one{
+    color: blue;
+    text-decoration: line-through;
+}
+
+/*ATTRIBUTE SELECTOR*/
+a[href='http://google.com']{
+  font-size: 50px;
+}
+
+/*UNIVERSAL SELECTOR-> selects all html elements*/
+*{
+    border:1px solid gray;
+}
