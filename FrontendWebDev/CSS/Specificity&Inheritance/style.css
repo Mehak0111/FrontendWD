@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+
+.para{
+   color: blue; 
+}
+#special-para{
+    color: pink;
+}
+/*
+id>class>element
+*/
+
+
+ul{
+    color: red;
+}
+ul>li{
+    border-top: 2px solid black;
+}
