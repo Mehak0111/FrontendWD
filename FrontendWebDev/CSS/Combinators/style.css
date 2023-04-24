@@ -1,0 +1,26 @@
+/*Descendant combinator*/
+
+article strong{
+    color: red;
+}
+
+ul a{
+ color: green;
+}
+
+/*Child Combinator*/
+/*select all elements that are the children of a specified element*/
+
+ul>li{
+    border-top: 2px solid orange;
+}
+
+/*Adjacent sibling Combinator*/
+h4+p{
+    color:blueviolet;
+}
+
+/*Gneral Sibling Combinator*/
+h2~p{
+    color: cadetblue;
+}
