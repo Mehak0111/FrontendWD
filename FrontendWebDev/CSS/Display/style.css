@@ -26,6 +26,8 @@ div{
   padding: 30px;
 }
 div:nth-child(2){
+    /*space ke saath remove hoga*/
     /*display: none;*/
     visibility: hidden;
+    /*space rahegi but element remove ho jaega*/
 }
