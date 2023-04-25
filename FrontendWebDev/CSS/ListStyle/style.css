@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+section{
+    width: 70vw;
+    margin: 40px auto;
+}
+li{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url("https://www.svz.com/wp-content/uploads/2018/05/Mango.jpg");
+}
+/*
+List style type
+List style image 
+list style position
+*/
