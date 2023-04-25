@@ -13,3 +13,24 @@ div{
     bottom: 100px;
     /*Jab position static kr doge then these offset properties are not going to work.*/
 }
+
+#relative #middle{
+    position: relative;
+    /* top: 100px; */
+    /* left: 50px; */
+    bottom: 100px;
+    /*offset works here*/
+}
+#absolute{
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 0;
+}
