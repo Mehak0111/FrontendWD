@@ -1,0 +1,29 @@
+section{
+    border:1px solid rgba(245, 245, 245, 0.937);
+       width:70vw;
+       background-color: cornflowerblue;
+       margin: 40px auto;
+       padding: 16px;
+}
+/*FONT PROPERTIES
+font size
+font family
+font weight
+font variant
+line height
+letter spacing*/
+
+p{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*serif family - strocks
+    sans-serif*/
+    
+    /* font-weight: 400; */
+    /*width kyaa hogi letters ki
+    100-900 400 is normal 700 is bold*/
+    /* font-style: oblique; */
+    /* font-variant: small-caps;
+    line-height: 2;
+    letter-spacing: 0.1em; */
+}
