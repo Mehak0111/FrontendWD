@@ -1,0 +1,17 @@
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;/*three dots*/
+}
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+section{
+    border: 1px solid #ccc;
+    width: 30vw;
+    margin: 40px auto;
+    padding: 16px;
+    height: 30vh;
+    overflow :scroll;
+}
