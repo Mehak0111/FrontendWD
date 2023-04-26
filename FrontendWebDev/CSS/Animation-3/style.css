@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    animation:3s alternate bounce;
+    -webkit-animation:1s infinite ease-in alternate bounce;
+    align-items: center;
+    animation-direction: alternate;
+}
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+to{
+    transform: translateY(560px);
+    -webkit-transform: translateY(560px);
+    -moz-transform: translateY(560px);
+    -ms-transform: translateY(560px);
+    -o-transform: translateY(560px);
+}
+}
+
+div img{
+    animation: 2s infinite rotate;
+    -webkit-animation: 2s infinite rotate;
+}
+@keyframes rotate{
+    100%{
+        transform: rotateZ(2turn);
+        -webkit-transform: rotateZ(2turn);
+        -moz-transform: rotateZ(2turn);
+        -ms-transform: rotateZ(2turn);
+        -o-transform: rotateZ(2turn);
+}
+}
