@@ -1,0 +1,51 @@
+div{
+    border: 3px solid black;
+    background-color: palevioletred;
+    height: 30px;
+    width: 200px;
+    /* animation-name: kuchbhinaam;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-play-state: running; */
+    animation: 2s 1s 2 normal forwards kuchbhinaam;
+    /*shorthand*//*duration easing-function delay iteration-count direction fill-mode playstate name*/
+    -webkit-animation: 2s 1s 2 normal forwards kuchbhinaam;
+}
+h1{
+    text-align: center;
+}
+/*
+Animations
+more state changes
+@keyframes name of animation
+*/
+
+@keyframes kuchbhinaam{
+    25%{
+      background-color: lightgreen;
+      width: 800px;
+      height: 100px;
+    }
+    50%{
+        background-color: lightpink;
+        width: 700px;
+        height: 300px;
+    }
+    70%{
+        background-color: magenta;
+        width: 300px;
+        height: 500px;
+    }
+    80%{
+        background-color: lightslategray;
+    height: 200px;
+    width: 200px;
+    }
+    100%{
+        background-color: antiquewhite;
+        height: 100px;
+        width:100px ;
+    }
+}
