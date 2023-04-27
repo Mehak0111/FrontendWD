@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /*basics of string*/
+         let str="this is mehak's book";
+        console.log(str);
+        // let str1='this is mehak's book';
+
+        //correction
+        let str1='this is mehak\'s book';
+        console.log(str1);
+
+        /*String methods
+        Destructive methods
+        Non Destructive methods
+        
+        */
+
+        let msg='Leave me alone i need space';
+        console.log(msg);
+        let x=msg.toUpperCase();
+         console.log(x);
+
+         /*Non destructive means hum original string se kuch change ni krre methods apply krke uske output ke lie string ko variable mein store karana hogaa but the original string won't change*/
+         msg[0]; //L
+         //indexing of string starts from 0
+        msg[999];//undefined bcz 999 index exist hi nhi krta hai
+
+        let person=null;
+        console.log(person);//null
+
+        let str2='Hello world';
+        str2.length;
+        let a=str2.substring(3,5);
+        console.log(a);
+
+        let b="    Mehak       ";
+        let c=b.trim().toUpperCase();
+        console.log(c);
+
+        let d='This is a cat';
+        let e=d.indexOf('i');
+
+        let f='Hello World';
+        let g=f.replace('l','x');
+        console.log(g);
+        /*it will replace only first instance*/
+
+        let h=f.replaceAll('l','x');
+        console.log(h);
+
+        let i='Hello '.repeat(3);
+        console.log(i);
+
+        let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
+console.log(text3);
+
+    </script>
+</body>
+</html>
