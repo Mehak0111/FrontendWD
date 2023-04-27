@@ -24,7 +24,24 @@
         const cannot be reassigned or redeclared
         */
 
+       let x=1;
+       {
+        let x=2;
+       }
+       console.log(x);
+
+       /*Let has block scope x=2 cannot be used outside the block*/
        
+
+       var y=1;
+       {
+        var y=2;
+       }
+       console.log(y);
+
+       /*no block scope it will print the recently assigned variable value*/
+
+       /*const works some as let and follows block scope*/
 </script>
 
 
