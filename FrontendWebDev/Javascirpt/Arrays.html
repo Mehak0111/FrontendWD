@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let colors=['Red','Green','Blue'];
+        //arrays in js are heterogenous
+        let arr=['Red',1,'mine',2,false,null,undefined,NaN];
+        const a=[1,2,3,[true,false,["mehak","bagga"]]];
+        console.log(a);
+        const colors1=['red','green','orange']
+        colors1.push('yellow','black','white'); 
+        //red green orange yellow black white
+        colors1.pop();
+        const poppedcolor=colors1.pop();
+        console.log(poppedcolor);
+        const b=colors1.slice(1,3);
+        console.log(b);
+        const c=colors1.splice(1,2,'Lavender');
+        /*splice method
+         1 is starting point
+         2 is number of element to be deleted
+         then elements list to be inserted
+        */
+
+        const url="https://wynkmusic/fav/songs.mp3";
+        const d=url.split('/');
+        console.log(url);
+        console.log(d);
+
+        let e=[1,2,3,4].join('->');
+        console.log(e);
+
+        const arr1=[1,2,3];
+        const arr2=["Mango","oranges"];
+        const con=arr1.concat(arr2);
+        console.log(con);
+ 
+        </script>
+</body>
+</html>
