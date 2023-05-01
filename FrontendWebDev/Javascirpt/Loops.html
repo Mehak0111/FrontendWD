@@ -30,7 +30,38 @@
 
             console.log(i);
         }
+
+        //------while loop------
+        let i=100;
+
+        while(i>=100){
+            console.log(i);
+            i-=10;
+        }
     
-    </script>
+
+
+        //------for-of loops-----
+        //iterating over iterable objects
+         const fruits=['Mango','apple','oranges','grapes'];
+
+         for(let fruit of fruits)
+             {
+                console.log(fruit);
+             }
+
+
+        //-------for in loops
+        const car={
+            name:'Audi',
+            price:20000,
+            color:['red','black'],
+            isdiscbrake:true
+        }
+
+        for(let key in car){
+            console.log(`${key}--${car[key]}`);
+        }
+             </script>
 </body>
 </html>
