@@ -24,7 +24,20 @@
         console.log(res);
 
 
-        
-    </script>
+        //another way of creating a function
+        //---function expression---
+        const a=function fun(){
+          console.log("Inside fun");
+        }   
+        console.log(a);
+        a();
+
+        //---anonymous functions----
+        const b=function(name){
+            console.log(`Hello ${name}`);
+            console.log("Inside fun");
+        }
+        b("mehak");
+        </script>
 </body>
 </html>
